@@ -1,125 +1,400 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="RTA__hNE_77anrk3rNqn7M_HFcBL1IBt526uUrdxaEI" />
-    <title>Koralive - Redirecting to kora.blog</title>
-    <link rel="canonical" href="https://kora.blog/" />
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-        }
-        
-        .container {
-            text-align: center;
-            padding: 40px;
-            background: rgba(0, 0, 0, 0.2);
-            border-radius: 10px;
-            max-width: 600px;
-        }
-        
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            animation: fadeIn 0.8s ease-out;
-        }
-        
-        p {
-            font-size: 1.1rem;
-            margin-bottom: 2rem;
-            opacity: 0.95;
-        }
-        
-        .redirect-link {
-            display: inline-block;
-            background: white;
-            color: #667eea;
-            padding: 15px 40px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 1.1rem;
-            transition: transform 0.3s, box-shadow 0.3s;
-            margin: 1rem 0.5rem;
-        }
-        
-        .redirect-link:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
-        }
-        
-        .redirect-link.alt {
-            background: transparent;
-            border: 2px solid white;
-            color: white;
-        }
-        
-        .redirect-link.alt:hover {
-            background: rgba(255, 255, 255, 0.1);
-        }
-        
-        .countdown {
-            margin-top: 2rem;
-            font-size: 0.9rem;
-            opacity: 0.8;
-        }
-        
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-    </style>
-    <script>
-        // Redirect after 5 seconds
-        window.setTimeout(function() {
-            window.location.href = 'https://kora.blog/';
-        }, 5000);
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="كورة لايف - بث مباشر لمباريات اليوم وأخبار كرة القدم الحصرية. تابع جدول المباريات والنتائج والأخبار من أفضل المصادر الموثوقة.">
+    <meta name="keywords" content="كورة لايف, بث مباشر مباريات اليوم, مشاهدة مباريات, أخبار كرة القدم, جدول مباريات اليوم, البث المباشر">
+    <meta name="author" content="Koralive">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="google-site-verification" content="RTA__hNE_77anrk3rNqn7M_HFcBL1IBt526uUrdxaEI">
+    <meta name="theme-color" content="#1a1a2e">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wahebtalal.github.io/koralive/">
+    <meta property="og:title" content="كورة لايف - بث مباشر لمباريات اليوم">
+    <meta property="og:description" content="تابع بث مباشر لمباريات كرة القدم والأخبار الساخنة على كورة لايف - منصتك الأولى لكل شيء متعلق بالكرة.">
+    <meta property="og:image" content="https://wahebtalal.github.io/koralive/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="ar_SA">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="كورة لايف - بث مباشر لمباريات اليوم">
+    <meta name="twitter:description" content="أخبار كرة القدم والبث المباشر لمباريات اليوم على كورة لايف">
+    <meta name="twitter:image" content="https://wahebtalal.github.io/koralive/og-image.jpg">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://wahebtalal.github.io/koralive/">
+    
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <title>كورة لايف - بث مباشر مباريات اليوم وأخبار كرة القدم</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-weight='bold' fill='%231a1a2e'>⚽</text></svg>">
 </head>
 <body>
-    <div class="container">
-        <h1>🌟 Welcome to Koralive</h1>
-        <p>You are being redirected to our main website...</p>
-        
-        <a href="https://kora.blog/" class="redirect-link">Go to kora.blog →</a>
-        <a href="javascript:void(0)" class="redirect-link alt" onclick="clearTimeout()">Wait on this page</a>
-        
-        <div class="countdown">
-            Redirecting in <span id="countdown">5</span> seconds...
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="الملاحة الرئيسية">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-icon">⚽</span>
+                <span class="logo-text">كورة لايف</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#مباريات-اليوم">مباريات اليوم</a></li>
+                <li><a href="#أخبار">أخبار</a></li>
+                <li><a href="#جدول-المباريات">جدول المباريات</a></li>
+                <li><a href="#اتصل-بنا">اتصل بنا</a></li>
+            </ul>
         </div>
-    </div>
+    </nav>
 
-    <script>
-        let count = 5;
-        const countdownElement = document.getElementById('countdown');
-        
-        const countdownInterval = setInterval(() => {
-            count--;
-            countdownElement.textContent = count;
+    <!-- Hero Section -->
+    <section class="hero" role="banner">
+        <div class="container">
+            <div class="hero-content">
+                <h1>كورة لايف - بث مباشر مباريات اليوم</h1>
+                <p class="hero-subtitle">منصتك الأولى لمتابعة البث المباشر والأخبار الحصرية لكرة القدم</p>
+                <p class="hero-description">تابع أفضل مباريات كرة القدم العالمية مع أحدث الأخبار والإحصائيات والنتائج في الوقت الفعلي.</p>
+                <a href="https://kora.blog/" class="cta-button primary" title="الانتقال إلى موقع كورة لايف الرئيسي">زيارة موقع كورة لايف الرئيسي</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- مباريات اليوم -->
+    <section id="مباريات-اليوم" class="matches-section">
+        <div class="container">
+            <h2>مباريات اليوم المباشرة</h2>
+            <p class="section-subtitle">شاهد جدول مباريات اليوم والبث المباشر لأهم اللقاءات</p>
             
-            if (count <= 0) {
-                clearInterval(countdownInterval);
-            }
-        }, 1000);
+            <div class="matches-grid">
+                <article class="match-card" itemscope itemtype="https://schema.org/SportsEvent">
+                    <div class="match-time">
+                        <span class="badge live">🔴 بث مباشر</span>
+                        <time datetime="2026-05-28T20:00:00">20:00</time>
+                    </div>
+                    <div class="match-teams">
+                        <div class="team">
+                            <span class="team-name" itemprop="homeTeam">فريق أ</span>
+                            <span class="team-score">2</span>
+                        </div>
+                        <span class="vs">VS</span>
+                        <div class="team">
+                            <span class="team-name" itemprop="awayTeam">فريق ب</span>
+                            <span class="team-score">1</span>
+                        </div>
+                    </div>
+                    <p class="match-league" itemprop="competition">الدوري الممتاز</p>
+                    <a href="https://kora.blog/" class="match-link" title="مشاهدة البث المباشر">مشاهدة البث المباشر</a>
+                </article>
+
+                <article class="match-card" itemscope itemtype="https://schema.org/SportsEvent">
+                    <div class="match-time">
+                        <span class="badge upcoming">⏳ قادمة</span>
+                        <time datetime="2026-05-28T22:30:00">22:30</time>
+                    </div>
+                    <div class="match-teams">
+                        <div class="team">
+                            <span class="team-name" itemprop="homeTeam">فريق ج</span>
+                            <span class="team-score">-</span>
+                        </div>
+                        <span class="vs">VS</span>
+                        <div class="team">
+                            <span class="team-name" itemprop="awayTeam">فريق د</span>
+                            <span class="team-score">-</span>
+                        </div>
+                    </div>
+                    <p class="match-league" itemprop="competition">كأس الملك</p>
+                    <a href="https://kora.blog/" class="match-link" title="متابعة البث المباشر">متابعة البث المباشر</a>
+                </article>
+
+                <article class="match-card" itemscope itemtype="https://schema.org/SportsEvent">
+                    <div class="match-time">
+                        <span class="badge upcoming">⏳ قادمة</span>
+                        <time datetime="2026-05-28T21:00:00">21:00</time>
+                    </div>
+                    <div class="match-teams">
+                        <div class="team">
+                            <span class="team-name" itemprop="homeTeam">فريق هـ</span>
+                            <span class="team-score">-</span>
+                        </div>
+                        <span class="vs">VS</span>
+                        <div class="team">
+                            <span class="team-name" itemprop="awayTeam">فريق و</span>
+                            <span class="team-score">-</span>
+                        </div>
+                    </div>
+                    <p class="match-league" itemprop="competition">دوري أبطال أوروبا</p>
+                    <a href="https://kora.blog/" class="match-link" title="شاهد البث المباشر">شاهد البث المباشر</a>
+                </article>
+            </div>
+
+            <div class="cta-box">
+                <p>هل تريد مشاهدة جميع مباريات اليوم والبث المباشر؟</p>
+                <a href="https://kora.blog/" class="cta-button secondary" title="عرض جميع مباريات اليوم">عرض جميع مباريات اليوم على كورة لايف</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- أخبار كرة القدم -->
+    <section id="أخبار" class="news-section">
+        <div class="container">
+            <h2>أحدث أخبار كرة القدم</h2>
+            <p class="section-subtitle">تابع أخبار الأندية والفرق والبطولات العالمية</p>
+            
+            <div class="news-grid">
+                <article class="news-card" itemscope itemtype="https://schema.org/NewsArticle">
+                    <div class="news-header">
+                        <span class="news-category">أخبار عاجلة</span>
+                        <time datetime="2026-05-28" itemprop="datePublished">منذ ساعتين</time>
+                    </div>
+                    <h3 itemprop="headline">الأخبار الساخنة في عالم كرة القدم اليوم</h3>
+                    <p itemprop="description">تابع أحدث تطورات نقل اللاعبين وإصابات الفرق والقرارات المهمة في عالم كرة القدم. على <a href="https://kora.blog/">كورة لايف</a> ستجد جميع الأخبار الحصرية والتحليلات المتخصصة.</p>
+                    <a href="https://kora.blog/" class="read-more" title="اقرأ الخبر كاملاً">اقرأ المزيد</a>
+                </article>
+
+                <article class="news-card" itemscope itemtype="https://schema.org/NewsArticle">
+                    <div class="news-header">
+                        <span class="news-category">تحليلات</span>
+                        <time datetime="2026-05-28" itemprop="datePublished">منذ 4 ساعات</time>
+                    </div>
+                    <h3 itemprop="headline">أفضل اللاعبين في مباريات اليوم</h3>
+                    <p itemprop="description">اكتشف من كانوا أفضل اللاعبين الأداء في المباريات. نقدم لك تحليلات عميقة وإحصائيات شاملة على منصة <a href="https://kora.blog/">كورة لايف</a> الموثوقة.</p>
+                    <a href="https://kora.blog/" class="read-more" title="اقرأ التحليل">اقرأ التحليل</a>
+                </article>
+
+                <article class="news-card" itemscope itemtype="https://schema.org/NewsArticle">
+                    <div class="news-header">
+                        <span class="news-category">نتائج</span>
+                        <time datetime="2026-05-28" itemprop="datePublished">منذ 6 ساعات</time>
+                    </div>
+                    <h3 itemprop="headline">نتائج مباريات أمس الكاملة</h3>
+                    <p itemprop="description">تعرف على نتائج جميع المباريات التي جرت بالأمس في الدوريات الكبرى. كل النتائج والإحصائيات متوفرة على <a href="https://kora.blog/">كورة لايف</a>.</p>
+                    <a href="https://kora.blog/" class="read-more" title="شاهد جميع النتائج">شاهد جميع النتائج</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- جدول المباريات -->
+    <section id="جدول-المباريات" class="schedule-section">
+        <div class="container">
+            <h2>جدول مباريات الأسبوع</h2>
+            <p class="section-subtitle">تابع جدول مباريات اليوم والأيام القادمة</p>
+            
+            <div class="schedule-table-wrapper">
+                <table class="schedule-table" role="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">الوقت</th>
+                            <th scope="col">المباراة</th>
+                            <th scope="col">البطولة</th>
+                            <th scope="col">البث</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="الوقت">20:00</td>
+                            <td data-label="المباراة">فريق أ <strong>2-1</strong> فريق ب</td>
+                            <td data-label="البطولة">الدوري الممتاز</td>
+                            <td data-label="البث"><a href="https://kora.blog/" title="مشاهدة البث">مشاهدة</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="الوقت">21:30</td>
+                            <td data-label="المباراة">فريق ج vs فريق د</td>
+                            <td data-label="البطولة">كأس الملك</td>
+                            <td data-label="البث"><a href="https://kora.blog/" title="شاهد البث المباشر">مشاهدة</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="الوقت">22:45</td>
+                            <td data-label="المباراة">فريق هـ vs فريق و</td>
+                            <td data-label="البطولة">دوري أبطال أوروبا</td>
+                            <td data-label="البث"><a href="https://kora.blog/" title="متابعة البث المباشر">مشاهدة</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="cta-box">
+                <p>تابع جدول المباريات الكامل والبث المباشر لجميع البطولات</p>
+                <a href="https://kora.blog/" class="cta-button secondary" title="اعرض جميع المباريات">اعرض جميع المباريات على كورة لايف</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- لماذا كورة لايف -->
+    <section class="features-section">
+        <div class="container">
+            <h2>لماذا تختار كورة لايف؟</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <span class="feature-icon">🎯</span>
+                    <h3>بث مباشر عالي الجودة</h3>
+                    <p>استمتع ببث مباشر بأعلى جودة لجميع المباريات الهامة مع تغطية شاملة لجميع البطولات العالمية.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">⚡</span>
+                    <h3>سرعة فائقة</h3>
+                    <p>منصة سريعة وخفيفة تعمل على جميع الأجهزة والاتصالات بدون تأخير، تابع مباريات اليوم بسلاسة.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">📱</span>
+                    <h3>متوافقة مع الجوال</h3>
+                    <p>صفحة كورة لايف متوافقة بنسبة 100% مع أجهزة الهاتف الذكي والأجهزة اللوحية لمتابعة سلسة.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">📊</span>
+                    <h3>تحليلات وإحصائيات</h3>
+                    <p>احصل على تحليلات متقدمة وإحصائيات تفصيلية عن كل مباراة واللاعبين والفرق.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">🔔</span>
+                    <h3>تنبيهات فورية</h3>
+                    <p>تلقى إشعارات فورية عند بدء المباريات والأهداف والأخبار المهمة في عالم كرة القدم.</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">🌍</span>
+                    <h3>تغطية عالمية</h3>
+                    <p>تابع مباريات من جميع الدول والدوريات العالمية بما فيها البطولات الأفريقية والآسيوية والأوروبية.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الاتصال -->
+    <section id="اتصل-بنا" class="contact-section">
+        <div class="container">
+            <h2>تابعنا على التواصل الاجتماعي</h2>
+            <p>للحصول على أحدث أخبار كرة القدم والبث المباشر، زيارة موقعنا الرئيسي:</p>
+            
+            <div class="social-links">
+                <a href="https://kora.blog/" class="social-link" title="زيارة موقع كورة لايف الرئيسي">
+                    <span>🌐 موقع كورة لايف الرئيسي</span>
+                </a>
+            </div>
+
+            <form class="contact-form" action="https://kora.blog/" method="GET" target="_blank">
+                <fieldset>
+                    <legend>اشترك في النشرة البريدية</legend>
+                    <div class="form-group">
+                        <label for="email">بريدك الإلكتروني:</label>
+                        <input type="email" id="email" name="email" placeholder="أدخل بريدك الإلكتروني" required aria-label="البريد الإلكتروني">
+                    </div>
+                    <button type="submit" class="cta-button secondary">اشترك الآن</button>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>كورة لايف</h3>
+                    <p>منصتك الأولى لبث مباشر مباريات اليوم وأخبار كرة القدم الحصرية. تابع جدول المباريات والبث المباشر والنتائج والتحليلات.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>روابط مهمة</h3>
+                    <ul>
+                        <li><a href="https://kora.blog/">الصفحة الرئيسية</a></li>
+                        <li><a href="https://kora.blog/">مباريات اليوم</a></li>
+                        <li><a href="https://kora.blog/">الأخبار</a></li>
+                        <li><a href="https://kora.blog/">جدول المباريات</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>معلومات</h3>
+                    <ul>
+                        <li><a href="https://kora.blog/">سياسة الخصوصية</a></li>
+                        <li><a href="https://kora.blog/">شروط الاستخدام</a></li>
+                        <li><a href="https://kora.blog/">اتصل بنا</a></li>
+                        <li><a href="https://kora.blog/">حول الموقع</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 كورة لايف - جميع الحقوق محفوظة</p>
+                <p>موقع متخصص في بث مباشر مباريات كرة القدم والأخبار | <a href="https://kora.blog/">زيارة الموقع الرئيسي</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Schema Markup - Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "كورة لايف",
+        "alternateName": "Koralive",
+        "url": "https://wahebtalal.github.io/koralive/",
+        "logo": "https://wahebtalal.github.io/koralive/logo.png",
+        "description": "منصة متخصصة في بث مباشر مباريات كرة القدم وأخبار الكرة",
+        "sameAs": [
+            "https://kora.blog/"
+        ],
+        "contact": {
+            "@type": "ContactPoint",
+            "contactType": "Customer Service",
+            "url": "https://kora.blog/"
+        }
+    }
     </script>
+
+    <!-- Schema Markup - BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "الرئيسية",
+                "item": "https://wahebtalal.github.io/koralive/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "مباريات اليوم",
+                "item": "https://kora.blog/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "الأخبار",
+                "item": "https://kora.blog/"
+            }
+        ]
+    }
+    </script>
+
+    <!-- Schema Markup - WebSite -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "كورة لايف",
+        "url": "https://wahebtalal.github.io/koralive/",
+        "description": "بث مباشر مباريات كرة القدم وأخبار الكرة",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://kora.blog/?search={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
